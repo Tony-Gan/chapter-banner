@@ -1,0 +1,42 @@
+{
+  "id": "chapter-banner",
+  "title": "Chapter Banner",
+  "description": "流程中拉个横幅，拉得好可以增强代入感，顺便换取PL的一句：wow~",
+  "version": "0.0.1",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "ChatGPT/Gemini, my employees"
+    },
+    {
+      "name": "Alioth",
+      "email": "zhiyuan.gan@outlook.com",
+      "url": "https://github.com/Tony-Gan"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.2.0",
+          "verified": "5.2.4"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "styles": [
+    "styles/app.css"
+  ],
+  "url": "https://github.com/Tony-Gan/chapter-banner",
+  "manifest": "https://github.com/Tony-Gan/chapter-banner/releases/latest/download/module.json",
+  "download": "https://github.com/Tony-Gan/chapter-banner/releases/latest/download/module.zip"
+}
